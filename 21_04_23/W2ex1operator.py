@@ -1,0 +1,6 @@
+a = float(input('x : '))
+b = float(input('y : '))
+print(f'{a} + {b} = {a + b} ; data type is : {type(a + b)}')
+print(f'{a} - {b} = {a - b} ; data type is : {type(a - b)}')
+print(f'{a} * {b} = {a * b} ; data type is : {type(a * b)}')
+print(f'{a} / {b} = {a / b} ; data type is : {type(a / b)}')
