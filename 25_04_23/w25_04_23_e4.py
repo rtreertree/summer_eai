@@ -10,3 +10,10 @@ else:
     bill = hour * 30
 
 print(f"Bill : {bill}")
+
+#OUTPUT 
+"""
+Hour: 1
+Minute: 30
+Bill : 60
+"""
