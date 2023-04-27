@@ -1,4 +1,4 @@
-dat = 8
+dat = 2
 if(dat % 2 != 0):
     for i in range(dat):
         layer = list("-"*dat)
