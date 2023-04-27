@@ -1,14 +1,12 @@
-def calculator(a, b, op):
-    match op:
-        case '+':
-            return a + b
-        case '-':
-            return a - b
-        case '*':
-            return a * b
-        case '/':
-            return a / b
-        case _:
-            return 0
-a, b, op = float(input("Enter a : ")), float(input("Enter b : ")), input("Enter operator (+, -, *, /) : ")
-print(f'{a} {op} {b} = {calculator(a,b,op)}')
+def calculator(a,b,op):
+    return eval(f"{a}{op}{b}")
+a,b,op = input("A :"), input("B :"), input("Op :")
+print(f"Anwser is {calculator(a,b,op)}")
+
+#OUTPUT
+"""
+A :100
+B :50
+Op :/
+Anwser is 2.0
+"""
